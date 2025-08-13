@@ -7,3 +7,10 @@ arguments:
 resources:
   - path: ./resources/documentation-summary.template.md
     name: documentation-summary-template
+---
+
+Based on the following task, use the hyaline MCP server to get relevant documentation.
+
+Task: ${task}
+
+Use the provided documentation-summary-template to summarize the documentation that was retrieved.
