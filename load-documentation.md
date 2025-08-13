@@ -1,3 +1,4 @@
+---
 name: load-documentation
 description: Use hyaline to load relevant documentation into context
 arguments:
