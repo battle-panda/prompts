@@ -1,0 +1,9 @@
+name: load-documentation
+description: Use hyaline to load relevant documentation into context
+arguments:
+  - name: task
+    description: A description of the task being performed
+    required: true
+resources:
+  - path: ./resources/documentation-summary.template.md
+    name: documentation-summary-template
